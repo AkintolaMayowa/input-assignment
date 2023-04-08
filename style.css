@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f9fafb;
+    font-family: 'open sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.container {
+    background-color: grey;
+    width: 700px;
+    border-radius: 5px;
+    box-shadow: 0 20px 10px rgba(0, 0, 0, 0.3);
+    padding: 40px 65px 30px 65px ;
+}
+.top {
+    background-color: bisque;
+    padding: 20px 40px 10px 30px;
+}
+.top input {
+    padding: 15px;
+    margin-top:20px;
+}
+.top .grade {
+    width: 70px;
+}
+.btn {
+    text-align: center;
+    padding: 20px 0 25px 0;
+    background-color: bisque;
+}
+.btn button {
+    padding: 10px 95px;
+    background-color: lime;
+    color: #000;
+    border: 2px solid lime;
+    border-radius: 5px;
+}
+.newTask{
+    background-color: #fff;
+    padding: 30px 20px;
+    margin-top: 60px;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    width: 600px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border-bottom: 2px solid gray;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+    border-bottom: 2px solid ;  
+}
+@media screen and (max-width:800px) {
+    .top input {
+        margin-top:20px;
+    }
+    .grades{
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+    .dep{
+        justify-content: center;
+        display: flex;
+        align-items: center;   
+    }
+    .names{
+        justify-content: center;
+        display: flex;
+        align-items: center;   
+    }
+}
+@media screen and (min-width:800px) {
+ .top input{
+    margin-top: 0px;
+    margin: 0 4px;
+ }   
+ .top{
+    display: flex;
+ }
+}
